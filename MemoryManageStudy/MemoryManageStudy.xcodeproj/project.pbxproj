@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5845BC011FF229CA002B5C45 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 5845BC001FF229CA002B5C45 /* Text.m */; };
 		C302849F1FEAA104009FEB00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C302849E1FEAA104009FEB00 /* AppDelegate.m */; };
 		C30284A21FEAA104009FEB00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30284A11FEAA104009FEB00 /* ViewController.m */; };
 		C30284A71FEAA104009FEB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30284A61FEAA104009FEB00 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5845BBFF1FF229CA002B5C45 /* Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		5845BC001FF229CA002B5C45 /* Text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
 		C302849A1FEAA104009FEB00 /* MemoryManageStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryManageStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C302849D1FEAA104009FEB00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C302849E1FEAA104009FEB00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5845BBFE1FF229AE002B5C45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5845BBFF1FF229CA002B5C45 /* Text.h */,
+				5845BC001FF229CA002B5C45 /* Text.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C30284911FEAA103009FEB00 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		C302849C1FEAA104009FEB00 /* MemoryManageStudy */ = {
 			isa = PBXGroup;
 			children = (
+				5845BBFE1FF229AE002B5C45 /* Model */,
 				C302849D1FEAA104009FEB00 /* AppDelegate.h */,
 				C302849E1FEAA104009FEB00 /* AppDelegate.m */,
 				C30284A01FEAA104009FEB00 /* ViewController.h */,
@@ -140,6 +153,7 @@
 			files = (
 				C30284A21FEAA104009FEB00 /* ViewController.m in Sources */,
 				C30284AD1FEAA104009FEB00 /* main.m in Sources */,
+				5845BC011FF229CA002B5C45 /* Text.m in Sources */,
 				C302849F1FEAA104009FEB00 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
