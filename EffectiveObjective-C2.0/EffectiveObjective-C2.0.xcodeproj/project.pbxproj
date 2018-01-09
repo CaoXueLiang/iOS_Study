@@ -43,6 +43,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587A360620046ED000BAA813 /* StudyDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StudyDemo;
+			sourceTree = "<group>";
+		};
 		C3FF67381FF27EB7005185B4 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +69,7 @@
 		C3FF67431FF27EB7005185B4 /* EffectiveObjective-C2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				587A360620046ED000BAA813 /* StudyDemo */,
 				C3FF67441FF27EB7005185B4 /* AppDelegate.h */,
 				C3FF67451FF27EB7005185B4 /* AppDelegate.m */,
 				C3FF67471FF27EB7005185B4 /* ViewController.h */,
