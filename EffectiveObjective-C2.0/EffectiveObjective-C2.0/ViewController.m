@@ -7,8 +7,17 @@
 //
 
 #import "ViewController.h"
+#import <objc/runtime.h>
+#import "CXLAlertView.h"
 
-@interface ViewController ()
+/** 点击按钮回调 */
+typedef void (^CXLHandleBlock) (NSInteger index);
+
+/** 使用静态全局变量做键 */
+static void *CXLAlertViewKey = @"CXLAlertViewKey";
+
+@interface ViewController ()<UIAlertViewDelegate>
+@property (nonatomic,copy,readwrite) NSString *tipString;
 @property (nonatomic,strong) UIButton *tapButton;
 @end
 
@@ -26,15 +35,23 @@
     [self.view addSubview:_tapButton];
     _tapButton.frame = CGRectMake(0, 0, 100, 30);
     _tapButton.center = self.view.center;
+   
 }
 
 - (void)showuAlert{
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"标题" message:@"" preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-    }];
-    [alert addAction:action];
-    [self.navigationController presentViewController:alert animated:YES completion:nil];
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"标题" message:@"消息" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定",@"知道了",nil];
+    CXLHandleBlock block = ^(NSInteger index){
+        NSLog(@"点击了--%ld",index);
+    };
+    objc_setAssociatedObject(alert, CXLAlertViewKey, block, OBJC_ASSOCIATION_COPY);
+    [alert show];
 }
+
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    CXLHandleBlock block = objc_getAssociatedObject(alertView, CXLAlertViewKey);
+    block(buttonIndex);
+}
+
 
 @end

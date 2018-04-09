@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30353452067940600975A6A /* CXLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353442067940600975A6A /* CXLPerson.m */; };
+		C3370F872060124E00A527F9 /* CXLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3370F862060124E00A527F9 /* CXLAlertView.m */; };
 		C3FF67461FF27EB7005185B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF67451FF27EB7005185B4 /* AppDelegate.m */; };
 		C3FF67491FF27EB7005185B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF67481FF27EB7005185B4 /* ViewController.m */; };
 		C3FF674E1FF27EB7005185B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF674D1FF27EB7005185B4 /* Assets.xcassets */; };
-		C3FF67511FF27EB7005185B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF674F1FF27EB7005185B4 /* LaunchScreen.storyboard */; };
 		C3FF67541FF27EB7005185B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF67531FF27EB7005185B4 /* main.m */; };
 		C3FF67781FF28B15005185B4 /* CXLAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF67771FF28B15005185B4 /* CXLAnimationView.m */; };
 		C3FF677B1FF28E16005185B4 /* CXLLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF677A1FF28E16005185B4 /* CXLLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C30353432067940600975A6A /* CXLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLPerson.h; sourceTree = "<group>"; };
+		C30353442067940600975A6A /* CXLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLPerson.m; sourceTree = "<group>"; };
+		C3370F852060124E00A527F9 /* CXLAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLAlertView.h; sourceTree = "<group>"; };
+		C3370F862060124E00A527F9 /* CXLAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLAlertView.m; sourceTree = "<group>"; };
 		C3FF67411FF27EB7005185B4 /* EffectiveObjective-C2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EffectiveObjective-C2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FF67441FF27EB7005185B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3FF67451FF27EB7005185B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C3FF67471FF27EB7005185B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C3FF67481FF27EB7005185B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3FF674D1FF27EB7005185B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3FF67501FF27EB7005185B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3FF67521FF27EB7005185B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3FF67531FF27EB7005185B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3FF67761FF28B15005185B4 /* CXLAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLAnimationView.h; sourceTree = "<group>"; };
@@ -43,11 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		587A360620046ED000BAA813 /* StudyDemo */ = {
+		C3370F842060123300A527F9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C3370F852060124E00A527F9 /* CXLAlertView.h */,
+				C3370F862060124E00A527F9 /* CXLAlertView.m */,
+				C30353432067940600975A6A /* CXLPerson.h */,
+				C30353442067940600975A6A /* CXLPerson.m */,
 			);
-			path = StudyDemo;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		C3FF67381FF27EB7005185B4 = {
@@ -69,13 +77,12 @@
 		C3FF67431FF27EB7005185B4 /* EffectiveObjective-C2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				587A360620046ED000BAA813 /* StudyDemo */,
+				C3370F842060123300A527F9 /* Common */,
 				C3FF67441FF27EB7005185B4 /* AppDelegate.h */,
 				C3FF67451FF27EB7005185B4 /* AppDelegate.m */,
 				C3FF67471FF27EB7005185B4 /* ViewController.h */,
 				C3FF67481FF27EB7005185B4 /* ViewController.m */,
 				C3FF674D1FF27EB7005185B4 /* Assets.xcassets */,
-				C3FF674F1FF27EB7005185B4 /* LaunchScreen.storyboard */,
 				C3FF67521FF27EB7005185B4 /* Info.plist */,
 				C3FF67531FF27EB7005185B4 /* main.m */,
 				C3FF67761FF28B15005185B4 /* CXLAnimationView.h */,
@@ -144,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FF67511FF27EB7005185B4 /* LaunchScreen.storyboard in Resources */,
 				C3FF674E1FF27EB7005185B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30353452067940600975A6A /* CXLPerson.m in Sources */,
 				C3FF67491FF27EB7005185B4 /* ViewController.m in Sources */,
+				C3370F872060124E00A527F9 /* CXLAlertView.m in Sources */,
 				C3FF677B1FF28E16005185B4 /* CXLLogin.m in Sources */,
 				C3FF67541FF27EB7005185B4 /* main.m in Sources */,
 				C3FF67461FF27EB7005185B4 /* AppDelegate.m in Sources */,
@@ -165,17 +173,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C3FF674F1FF27EB7005185B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3FF67501FF27EB7005185B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C3FF676B1FF27EB7005185B4 /* Debug */ = {
@@ -289,7 +286,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49YMBTW8W3;
 				INFOPLIST_FILE = "EffectiveObjective-C2.0/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CaoXueLiang.EffectiveObjective-C2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,7 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49YMBTW8W3;
 				INFOPLIST_FILE = "EffectiveObjective-C2.0/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CaoXueLiang.EffectiveObjective-C2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";

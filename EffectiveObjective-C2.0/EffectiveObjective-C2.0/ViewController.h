@@ -19,7 +19,6 @@ typedef NS_OPTIONS(NSInteger, State) {
 };
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic,copy,readonly) NSString *tipString;
 @end
 

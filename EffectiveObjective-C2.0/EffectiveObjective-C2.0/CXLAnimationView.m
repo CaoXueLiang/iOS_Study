@@ -13,6 +13,8 @@
  */
 //static const NSTimeInterval KAnimationDuration = 0.3;
 
+static const NSTimeInterval KanimationDuration = 0.3;
+
 /*
  * 若常量在类之外可见
  * 则通常以类名为前缀
