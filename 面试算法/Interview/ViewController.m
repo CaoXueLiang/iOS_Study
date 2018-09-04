@@ -173,6 +173,7 @@
  归并排序的思想是将数组分成两部分，分别进行排序，然后归并起来。
  */
 
+/***--------------自上而下进行排序---------------**/
 - (void)mergeSortArray:(NSMutableArray *)array{
     //创建一个辅助数组
     NSMutableArray *auxArray = [[NSMutableArray alloc]initWithCapacity:array.count];
@@ -196,7 +197,7 @@
 
 //将数组中两个已经排序的部分归并成一个
 - (void)merge:(NSMutableArray *)array auxArray:(NSMutableArray *)auxArray low:(int)low middel:(int)middle high:(int)high {
-    //
+    
     int i = low;
     int j = middle + 1;
    
@@ -204,10 +205,7 @@
         //将数据复制到辅助数组
         auxArray[k] = array[k];
     }
-    
-    
-    NSLog(@"low = %d,high = %d",low,high);
-    
+
     for (int k = low; k <= high; k++) {
         if (i > middle) {
             array[k] = auxArray[j++];
@@ -219,7 +217,20 @@
             array[k] = auxArray[j++];
         }
     }
+    
 }
+
+/**--------------自下而上进行排序----------------*/
+- (void)mergeIteration:(NSMutableArray *)arr{
+    int N = (int)arr.count;
+    NSMutableArray *auxArray = [[NSMutableArray alloc]initWithCapacity:arr.count];
+    for (int sz = 1; sz < N; sz += sz) {
+        for (int i = 0; i < N - sz; i += sz + sz) {
+            [self merge:arr auxArray:auxArray low:i middel:i + sz - 1 high:MIN(i + sz + sz - 1, N - 1)];
+        }
+    }
+}
+
 
 
 
