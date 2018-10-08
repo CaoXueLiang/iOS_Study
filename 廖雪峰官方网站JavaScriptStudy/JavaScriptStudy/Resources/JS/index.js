@@ -3,9 +3,35 @@
 function buttonClick()
 {
     // 调OC方法
-    callAppback('点击了按钮');
+    //callAppback('点击了按钮');
+    alert('测试');
 }
 
+
+/** 数据类型*/
+//1.number
+let ceshi = 0.99;
+Infinity
+NaN
+console.log(0/0);
+console.log(2/0);
+
+console.log('abcdefg');
+
+var tmp = 'I\'m ok';
+var mutaStr = `多行
+字符串
+测试`
+
+
+
+function tmpFunction(x){
+    //console.log('测试函数');
+    for(var i = 0; i < arguments.length;i++){
+        console.log(arguments[i]);
+    }
+}
+tmpFunction(10,11,13);
 
 var array = ['hello','jsvascrapt','ES6'];
 var [x,y,z] = array;
@@ -34,7 +60,6 @@ var person = {
 
 var{gender,address:{city,zipcode}} = person;
 console.log(`genter = ${gender} city = ${city} zipcode = ${zipcode}`);
-
 
 //解构赋值还可以使用默认值，这样就避免了不存在的属性返回undefined的问题：
 let {name,time='测试时间'} = person;

@@ -28,12 +28,12 @@
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
-    JSContext *context = [_myWebView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    //定义好JS要调用的方法, share就是调用的share方法名
-    context[@"callAppback"] = ^(NSString *responseData) {
-        
-        NSLog(@"----%@----",responseData);
-    };
+//    JSContext *context = [_myWebView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+//    //定义好JS要调用的方法, share就是调用的share方法名
+//    context[@"callAppback"] = ^(NSString *responseData) {
+//
+//        NSLog(@"----%@----",responseData);
+//    };
 }
 
 @end
