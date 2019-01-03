@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  CoreImageStudy
+//
+//  Created by 曹学亮 on 2019/1/3.
+//  Copyright © 2019 Cao Xueliang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//----------------------------屏幕尺寸------------------------------------
+//屏幕尺寸
+#define SCREEN_SCALE [UIScreen mainScreen].scale                    // 得到屏幕比例
+#define SCREEN_FRAME  ([UIScreen mainScreen].bounds)                // 得到屏幕大小
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)    // 得到屏幕高
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)      // 得到屏幕宽
+
+#define YL_Device_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define YL_Device_Is_iPhoneXR ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+#define YL_Device_Is_iPhoneXS ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define YL_Device_Is_iPhoneXS_MAX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhoneX (YL_Device_Is_iPhoneX || YL_Device_Is_iPhoneXR || YL_Device_Is_iPhoneXS || YL_Device_Is_iPhoneXS_MAX)
+
+#define KSTATUS_BAR_HEIGHT ((kDevice_Is_iPhoneX) ? 44.0f : 20.0f)
+#define KNAVIGATION_BAR_HEIGHT ((kDevice_Is_iPhoneX) ? 88.0f : 64.0f)
+#define KTABBAR_BAR_HEIGHT ((kDevice_Is_iPhoneX) ? 83.0f : 49.0f)
+#define KTabbarSafeBottomMargin (kDevice_Is_iPhoneX ? 34 : 0)
+
+#endif /* PrefixHeader_pch */

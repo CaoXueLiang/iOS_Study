@@ -7,15 +7,14 @@
                 <meta name="description" content="">
                     <meta name="viewport" content="width=device-width; initial-scale=1.0">
                         
-<!--
- 1.直接加载js文件
- 2.或者在<script>之间写js方法
- <script src="index.js"></script>
- -->
 
-        <script src="/Users/caoxueliang/iOS_Study/廖雪峰官方网站JavaScriptStudy/JavaScriptStudy/Resources/JS/index.js"></script>
-        
+        <script>
+            function buttonClick(){
+                callAppback('要传的参数');
+            }
+        </script>
     </head>
+    
     <body>
         <button id="hallo" onclick="buttonClick()"> 点击button</button>
     </body>

@@ -7,32 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C307C2C820808DC900709842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C307C2C720808DC900709842 /* AppDelegate.m */; };
-		C307C2D020808DCA00709842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C307C2CF20808DCA00709842 /* Assets.xcassets */; };
-		C307C2D320808DCA00709842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C307C2D120808DCA00709842 /* LaunchScreen.storyboard */; };
-		C307C2D620808DCA00709842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C307C2D520808DCA00709842 /* main.m */; };
-		C307C2DF20808E1900709842 /* CXLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C307C2DE20808E1900709842 /* CXLRootViewController.m */; };
-		C30C736D20823A5400A44FFA /* tmp.html in Resources */ = {isa = PBXBuildFile; fileRef = C30C736C20823A5400A44FFA /* tmp.html */; };
-		C30C736F20823E0F00A44FFA /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C30C736E20823E0F00A44FFA /* index.js */; };
+		C3CBFC5921DDB07200D69010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC5821DDB07200D69010 /* AppDelegate.m */; };
+		C3CBFC6121DDB07200D69010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CBFC6021DDB07200D69010 /* Assets.xcassets */; };
+		C3CBFC6421DDB07200D69010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBFC6221DDB07200D69010 /* LaunchScreen.storyboard */; };
+		C3CBFC6721DDB07200D69010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC6621DDB07200D69010 /* main.m */; };
+		C3CBFC7221DDB0E000D69010 /* CXLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC7121DDB0E000D69010 /* CXLMainController.m */; };
+		C3CBFC7621DDC00600D69010 /* CXLNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC7521DDC00600D69010 /* CXLNormalCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C307C2C320808DC900709842 /* JavaScriptStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C307C2C620808DC900709842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C307C2C720808DC900709842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C307C2CF20808DCA00709842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C307C2D220808DCA00709842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C307C2D420808DCA00709842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C307C2D520808DCA00709842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C307C2DD20808E1900709842 /* CXLRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLRootViewController.h; sourceTree = "<group>"; };
-		C307C2DE20808E1900709842 /* CXLRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLRootViewController.m; sourceTree = "<group>"; };
-		C30C736B20823A4200A44FFA /* tmp.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = tmp.html; sourceTree = "<group>"; };
-		C30C736C20823A5400A44FFA /* tmp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tmp.html; sourceTree = "<group>"; };
-		C30C736E20823E0F00A44FFA /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		C3CBFC5421DDB07200D69010 /* CoreImageStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImageStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CBFC5721DDB07200D69010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3CBFC5821DDB07200D69010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3CBFC6021DDB07200D69010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3CBFC6321DDB07200D69010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3CBFC6521DDB07200D69010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CBFC6621DDB07200D69010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3CBFC7021DDB0E000D69010 /* CXLMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLMainController.h; sourceTree = "<group>"; };
+		C3CBFC7121DDB0E000D69010 /* CXLMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLMainController.m; sourceTree = "<group>"; };
+		C3CBFC7321DDBDBA00D69010 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C3CBFC7421DDC00600D69010 /* CXLNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLNormalCell.h; sourceTree = "<group>"; };
+		C3CBFC7521DDC00600D69010 /* CXLNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLNormalCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C307C2C020808DC900709842 /* Frameworks */ = {
+		C3CBFC5121DDB07200D69010 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,107 +41,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C307C2BA20808DC900709842 = {
+		C3CBFC4B21DDB07200D69010 = {
 			isa = PBXGroup;
 			children = (
-				C307C2C520808DC900709842 /* JavaScriptStudy */,
-				C307C2C420808DC900709842 /* Products */,
-				C30C736B20823A4200A44FFA /* tmp.html */,
+				C3CBFC5621DDB07200D69010 /* CoreImageStudy */,
+				C3CBFC5521DDB07200D69010 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C307C2C420808DC900709842 /* Products */ = {
+		C3CBFC5521DDB07200D69010 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C307C2C320808DC900709842 /* JavaScriptStudy.app */,
+				C3CBFC5421DDB07200D69010 /* CoreImageStudy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C307C2C520808DC900709842 /* JavaScriptStudy */ = {
+		C3CBFC5621DDB07200D69010 /* CoreImageStudy */ = {
 			isa = PBXGroup;
 			children = (
-				C307C2E02080962800709842 /* Resources */,
-				C307C2DC20808DE900709842 /* Controller */,
-				C307C2C620808DC900709842 /* AppDelegate.h */,
-				C307C2C720808DC900709842 /* AppDelegate.m */,
-				C307C2CF20808DCA00709842 /* Assets.xcassets */,
-				C307C2D120808DCA00709842 /* LaunchScreen.storyboard */,
-				C307C2D420808DCA00709842 /* Info.plist */,
-				C307C2D520808DCA00709842 /* main.m */,
+				C3CBFC6D21DDB0A400D69010 /* Module */,
+				C3CBFC5721DDB07200D69010 /* AppDelegate.h */,
+				C3CBFC5821DDB07200D69010 /* AppDelegate.m */,
+				C3CBFC6021DDB07200D69010 /* Assets.xcassets */,
+				C3CBFC6221DDB07200D69010 /* LaunchScreen.storyboard */,
+				C3CBFC6521DDB07200D69010 /* Info.plist */,
+				C3CBFC6621DDB07200D69010 /* main.m */,
+				C3CBFC7321DDBDBA00D69010 /* PrefixHeader.pch */,
 			);
-			path = JavaScriptStudy;
+			path = CoreImageStudy;
 			sourceTree = "<group>";
 		};
-		C307C2DC20808DE900709842 /* Controller */ = {
+		C3CBFC6D21DDB0A400D69010 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				C307C2DD20808E1900709842 /* CXLRootViewController.h */,
-				C307C2DE20808E1900709842 /* CXLRootViewController.m */,
+				C3CBFC6F21DDB0B800D69010 /* Views */,
+				C3CBFC6E21DDB0AE00D69010 /* Controllers */,
 			);
-			path = Controller;
+			path = Module;
 			sourceTree = "<group>";
 		};
-		C307C2E02080962800709842 /* Resources */ = {
+		C3CBFC6E21DDB0AE00D69010 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C30C736A20823A2F00A44FFA /* HTML */,
-				C30C736920823A2600A44FFA /* JS */,
+				C3CBFC7021DDB0E000D69010 /* CXLMainController.h */,
+				C3CBFC7121DDB0E000D69010 /* CXLMainController.m */,
 			);
-			path = Resources;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C30C736920823A2600A44FFA /* JS */ = {
+		C3CBFC6F21DDB0B800D69010 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C30C736E20823E0F00A44FFA /* index.js */,
+				C3CBFC7421DDC00600D69010 /* CXLNormalCell.h */,
+				C3CBFC7521DDC00600D69010 /* CXLNormalCell.m */,
 			);
-			path = JS;
-			sourceTree = "<group>";
-		};
-		C30C736A20823A2F00A44FFA /* HTML */ = {
-			isa = PBXGroup;
-			children = (
-				C30C736C20823A5400A44FFA /* tmp.html */,
-			);
-			path = HTML;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C307C2C220808DC900709842 /* JavaScriptStudy */ = {
+		C3CBFC5321DDB07200D69010 /* CoreImageStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C307C2D920808DCA00709842 /* Build configuration list for PBXNativeTarget "JavaScriptStudy" */;
+			buildConfigurationList = C3CBFC6A21DDB07200D69010 /* Build configuration list for PBXNativeTarget "CoreImageStudy" */;
 			buildPhases = (
-				C307C2BF20808DC900709842 /* Sources */,
-				C307C2C020808DC900709842 /* Frameworks */,
-				C307C2C120808DC900709842 /* Resources */,
+				C3CBFC5021DDB07200D69010 /* Sources */,
+				C3CBFC5121DDB07200D69010 /* Frameworks */,
+				C3CBFC5221DDB07200D69010 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JavaScriptStudy;
-			productName = JavaScriptStudy;
-			productReference = C307C2C320808DC900709842 /* JavaScriptStudy.app */;
+			name = CoreImageStudy;
+			productName = CoreImageStudy;
+			productReference = C3CBFC5421DDB07200D69010 /* CoreImageStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C307C2BB20808DC900709842 /* Project object */ = {
+		C3CBFC4C21DDB07200D69010 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Cao Xueliang";
 				TargetAttributes = {
-					C307C2C220808DC900709842 = {
-						CreatedOnToolsVersion = 9.3;
+					C3CBFC5321DDB07200D69010 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = C307C2BE20808DC900709842 /* Build configuration list for PBXProject "JavaScriptStudy" */;
+			buildConfigurationList = C3CBFC4F21DDB07200D69010 /* Build configuration list for PBXProject "CoreImageStudy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,48 +141,47 @@
 				en,
 				Base,
 			);
-			mainGroup = C307C2BA20808DC900709842;
-			productRefGroup = C307C2C420808DC900709842 /* Products */;
+			mainGroup = C3CBFC4B21DDB07200D69010;
+			productRefGroup = C3CBFC5521DDB07200D69010 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C307C2C220808DC900709842 /* JavaScriptStudy */,
+				C3CBFC5321DDB07200D69010 /* CoreImageStudy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C307C2C120808DC900709842 /* Resources */ = {
+		C3CBFC5221DDB07200D69010 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30C736D20823A5400A44FFA /* tmp.html in Resources */,
-				C307C2D320808DCA00709842 /* LaunchScreen.storyboard in Resources */,
-				C307C2D020808DCA00709842 /* Assets.xcassets in Resources */,
-				C30C736F20823E0F00A44FFA /* index.js in Resources */,
+				C3CBFC6421DDB07200D69010 /* LaunchScreen.storyboard in Resources */,
+				C3CBFC6121DDB07200D69010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C307C2BF20808DC900709842 /* Sources */ = {
+		C3CBFC5021DDB07200D69010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C307C2D620808DCA00709842 /* main.m in Sources */,
-				C307C2C820808DC900709842 /* AppDelegate.m in Sources */,
-				C307C2DF20808E1900709842 /* CXLRootViewController.m in Sources */,
+				C3CBFC6721DDB07200D69010 /* main.m in Sources */,
+				C3CBFC5921DDB07200D69010 /* AppDelegate.m in Sources */,
+				C3CBFC7621DDC00600D69010 /* CXLNormalCell.m in Sources */,
+				C3CBFC7221DDB0E000D69010 /* CXLMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C307C2D120808DCA00709842 /* LaunchScreen.storyboard */ = {
+		C3CBFC6221DDB07200D69010 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C307C2D220808DCA00709842 /* Base */,
+				C3CBFC6321DDB07200D69010 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -199,7 +189,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C307C2D720808DCA00709842 /* Debug */ = {
+		C3CBFC6821DDB07200D69010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,14 +240,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		C307C2D820808DCA00709842 /* Release */ = {
+		C3CBFC6921DDB07200D69010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,42 +293,49 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C307C2DA20808DCA00709842 /* Debug */ = {
+		C3CBFC6B21DDB07200D69010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VN26MV376;
-				INFOPLIST_FILE = JavaScriptStudy/Info.plist;
+				DEVELOPMENT_TEAM = 98P3XC76GZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/caoxueliang/iOS_Study/CoreImageStudy/CoreImageStudy/PrefixHeader.pch;
+				INFOPLIST_FILE = CoreImageStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CaoXueLiang.JavaScriptStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = CaoXueLiang.CoreImageStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C307C2DB20808DCA00709842 /* Release */ = {
+		C3CBFC6C21DDB07200D69010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VN26MV376;
-				INFOPLIST_FILE = JavaScriptStudy/Info.plist;
+				DEVELOPMENT_TEAM = 98P3XC76GZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/caoxueliang/iOS_Study/CoreImageStudy/CoreImageStudy/PrefixHeader.pch;
+				INFOPLIST_FILE = CoreImageStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CaoXueLiang.JavaScriptStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = CaoXueLiang.CoreImageStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -346,25 +344,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C307C2BE20808DC900709842 /* Build configuration list for PBXProject "JavaScriptStudy" */ = {
+		C3CBFC4F21DDB07200D69010 /* Build configuration list for PBXProject "CoreImageStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C307C2D720808DCA00709842 /* Debug */,
-				C307C2D820808DCA00709842 /* Release */,
+				C3CBFC6821DDB07200D69010 /* Debug */,
+				C3CBFC6921DDB07200D69010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C307C2D920808DCA00709842 /* Build configuration list for PBXNativeTarget "JavaScriptStudy" */ = {
+		C3CBFC6A21DDB07200D69010 /* Build configuration list for PBXNativeTarget "CoreImageStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C307C2DA20808DCA00709842 /* Debug */,
-				C307C2DB20808DCA00709842 /* Release */,
+				C3CBFC6B21DDB07200D69010 /* Debug */,
+				C3CBFC6C21DDB07200D69010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C307C2BB20808DC900709842 /* Project object */;
+	rootObject = C3CBFC4C21DDB07200D69010 /* Project object */;
 }
