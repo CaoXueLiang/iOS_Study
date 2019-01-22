@@ -1,0 +1,31 @@
+<html>
+    <header>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript">
+            
+            function saveaction(){
+                //alert("确定要保存该图⽚片吗?");
+                // 发送消息给客户端 JS 中发送消息给 OC
+                var param = {url : "https://raw.githubusercontent.com/iOS-Tips/iOS-tech-set/master/images/qrcode.jpg"};
+                window.webkit.messageHandlers.JSBridge.postMessage(JSON.stringify(param));
+            }
+        
+        function change_state(issaved){
+            var button = document.getElementById('saveid');
+            if (issaved){
+                button.innerText = "已保存";
+            } else {
+                button.innerText = "保存到相册"; }
+            }
+        
+        </script>
+    </header>
+    
+    <body>
+        <h1> 测试 </h1>
+        <br/>
+        <br/>
+<!--        <button type="button" onclick="saveaction()">Click Me!</button>-->
+        <div  type="button" id="saveid" onclick="saveaction()">保存到相册</div>
+    </body>
+</html>
