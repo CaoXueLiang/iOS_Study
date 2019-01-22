@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ACCF9AFA8F22307661D7CD0 /* libPods-CoreImageStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB064ADF2916ED46A2C321D /* libPods-CoreImageStudy.a */; };
 		C3CBFC5921DDB07200D69010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC5821DDB07200D69010 /* AppDelegate.m */; };
 		C3CBFC6121DDB07200D69010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CBFC6021DDB07200D69010 /* Assets.xcassets */; };
 		C3CBFC6421DDB07200D69010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CBFC6221DDB07200D69010 /* LaunchScreen.storyboard */; };
 		C3CBFC6721DDB07200D69010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC6621DDB07200D69010 /* main.m */; };
 		C3CBFC7221DDB0E000D69010 /* CXLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC7121DDB0E000D69010 /* CXLMainController.m */; };
 		C3CBFC7621DDC00600D69010 /* CXLNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC7521DDC00600D69010 /* CXLNormalCell.m */; };
+		C3CBFC8021DE0AF500D69010 /* CXLFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC7F21DE0AF500D69010 /* CXLFirstController.m */; };
+		C3CBFC8321DE0C3F00D69010 /* textImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3CBFC8221DE0C3F00D69010 /* textImage.jpg */; };
+		C3CBFC8621DE4DF200D69010 /* CXLNormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC8521DE4DF200D69010 /* CXLNormalCollectionViewCell.m */; };
+		C3CBFC8A21DF038200D69010 /* CXLCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC8921DF038200D69010 /* CXLCollectionViewModel.m */; };
+		C3CBFC8D21DF3E9E00D69010 /* CXLSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC8C21DF3E9E00D69010 /* CXLSecondController.m */; };
+		C3CBFC9021DF450B00D69010 /* CXLThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFC8F21DF450B00D69010 /* CXLThirdController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FB064ADF2916ED46A2C321D /* libPods-CoreImageStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreImageStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89D45AA163C205F838D7F52 /* Pods-CoreImageStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreImageStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreImageStudy/Pods-CoreImageStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		C3CBFC5421DDB07200D69010 /* CoreImageStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImageStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CBFC5721DDB07200D69010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3CBFC5821DDB07200D69010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +37,18 @@
 		C3CBFC7321DDBDBA00D69010 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C3CBFC7421DDC00600D69010 /* CXLNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLNormalCell.h; sourceTree = "<group>"; };
 		C3CBFC7521DDC00600D69010 /* CXLNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLNormalCell.m; sourceTree = "<group>"; };
+		C3CBFC7E21DE0AF500D69010 /* CXLFirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLFirstController.h; sourceTree = "<group>"; };
+		C3CBFC7F21DE0AF500D69010 /* CXLFirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLFirstController.m; sourceTree = "<group>"; };
+		C3CBFC8221DE0C3F00D69010 /* textImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textImage.jpg; sourceTree = "<group>"; };
+		C3CBFC8421DE4DF200D69010 /* CXLNormalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLNormalCollectionViewCell.h; sourceTree = "<group>"; };
+		C3CBFC8521DE4DF200D69010 /* CXLNormalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLNormalCollectionViewCell.m; sourceTree = "<group>"; };
+		C3CBFC8821DF038200D69010 /* CXLCollectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLCollectionViewModel.h; sourceTree = "<group>"; };
+		C3CBFC8921DF038200D69010 /* CXLCollectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLCollectionViewModel.m; sourceTree = "<group>"; };
+		C3CBFC8B21DF3E9E00D69010 /* CXLSecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLSecondController.h; sourceTree = "<group>"; };
+		C3CBFC8C21DF3E9E00D69010 /* CXLSecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLSecondController.m; sourceTree = "<group>"; };
+		C3CBFC8E21DF450B00D69010 /* CXLThirdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLThirdController.h; sourceTree = "<group>"; };
+		C3CBFC8F21DF450B00D69010 /* CXLThirdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLThirdController.m; sourceTree = "<group>"; };
+		D0E33CA1D5CA9B2114C8C5DD /* Pods-CoreImageStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreImageStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreImageStudy/Pods-CoreImageStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACCF9AFA8F22307661D7CD0 /* libPods-CoreImageStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C4C020DEE73DF369133BD81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B89D45AA163C205F838D7F52 /* Pods-CoreImageStudy.debug.xcconfig */,
+				D0E33CA1D5CA9B2114C8C5DD /* Pods-CoreImageStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40E610D0A2318C8C213063CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FB064ADF2916ED46A2C321D /* libPods-CoreImageStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3CBFC4B21DDB07200D69010 = {
 			isa = PBXGroup;
 			children = (
 				C3CBFC5621DDB07200D69010 /* CoreImageStudy */,
 				C3CBFC5521DDB07200D69010 /* Products */,
+				3C4C020DEE73DF369133BD81 /* Pods */,
+				40E610D0A2318C8C213063CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +101,7 @@
 		C3CBFC5621DDB07200D69010 /* CoreImageStudy */ = {
 			isa = PBXGroup;
 			children = (
+				C3CBFC8121DE0BD500D69010 /* Resources */,
 				C3CBFC6D21DDB0A400D69010 /* Module */,
 				C3CBFC5721DDB07200D69010 /* AppDelegate.h */,
 				C3CBFC5821DDB07200D69010 /* AppDelegate.m */,
@@ -75,6 +117,7 @@
 		C3CBFC6D21DDB0A400D69010 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				C3CBFC8721DF035D00D69010 /* Models */,
 				C3CBFC6F21DDB0B800D69010 /* Views */,
 				C3CBFC6E21DDB0AE00D69010 /* Controllers */,
 			);
@@ -86,6 +129,12 @@
 			children = (
 				C3CBFC7021DDB0E000D69010 /* CXLMainController.h */,
 				C3CBFC7121DDB0E000D69010 /* CXLMainController.m */,
+				C3CBFC7E21DE0AF500D69010 /* CXLFirstController.h */,
+				C3CBFC7F21DE0AF500D69010 /* CXLFirstController.m */,
+				C3CBFC8B21DF3E9E00D69010 /* CXLSecondController.h */,
+				C3CBFC8C21DF3E9E00D69010 /* CXLSecondController.m */,
+				C3CBFC8E21DF450B00D69010 /* CXLThirdController.h */,
+				C3CBFC8F21DF450B00D69010 /* CXLThirdController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,8 +144,27 @@
 			children = (
 				C3CBFC7421DDC00600D69010 /* CXLNormalCell.h */,
 				C3CBFC7521DDC00600D69010 /* CXLNormalCell.m */,
+				C3CBFC8421DE4DF200D69010 /* CXLNormalCollectionViewCell.h */,
+				C3CBFC8521DE4DF200D69010 /* CXLNormalCollectionViewCell.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C3CBFC8121DE0BD500D69010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBFC8221DE0C3F00D69010 /* textImage.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3CBFC8721DF035D00D69010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBFC8821DF038200D69010 /* CXLCollectionViewModel.h */,
+				C3CBFC8921DF038200D69010 /* CXLCollectionViewModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CBFC6A21DDB07200D69010 /* Build configuration list for PBXNativeTarget "CoreImageStudy" */;
 			buildPhases = (
+				00590E38285A7A9795B0A81A /* [CP] Check Pods Manifest.lock */,
 				C3CBFC5021DDB07200D69010 /* Sources */,
 				C3CBFC5121DDB07200D69010 /* Frameworks */,
 				C3CBFC5221DDB07200D69010 /* Resources */,
+				33B4F966EB0DBC9D67B6492A /* [CP] Embed Pods Frameworks */,
+				6780F248ACC5744E86FEEE3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,21 +228,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3CBFC6421DDB07200D69010 /* LaunchScreen.storyboard in Resources */,
+				C3CBFC8321DE0C3F00D69010 /* textImage.jpg in Resources */,
 				C3CBFC6121DDB07200D69010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00590E38285A7A9795B0A81A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreImageStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33B4F966EB0DBC9D67B6492A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreImageStudy/Pods-CoreImageStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6780F248ACC5744E86FEEE3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreImageStudy/Pods-CoreImageStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3CBFC5021DDB07200D69010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CBFC8021DE0AF500D69010 /* CXLFirstController.m in Sources */,
+				C3CBFC9021DF450B00D69010 /* CXLThirdController.m in Sources */,
 				C3CBFC6721DDB07200D69010 /* main.m in Sources */,
 				C3CBFC5921DDB07200D69010 /* AppDelegate.m in Sources */,
+				C3CBFC8621DE4DF200D69010 /* CXLNormalCollectionViewCell.m in Sources */,
+				C3CBFC8A21DF038200D69010 /* CXLCollectionViewModel.m in Sources */,
 				C3CBFC7621DDC00600D69010 /* CXLNormalCell.m in Sources */,
 				C3CBFC7221DDB0E000D69010 /* CXLMainController.m in Sources */,
+				C3CBFC8D21DF3E9E00D69010 /* CXLSecondController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +431,7 @@
 		};
 		C3CBFC6B21DDB07200D69010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89D45AA163C205F838D7F52 /* Pods-CoreImageStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +452,7 @@
 		};
 		C3CBFC6C21DDB07200D69010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E33CA1D5CA9B2114C8C5DD /* Pods-CoreImageStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

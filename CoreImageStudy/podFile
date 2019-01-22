@@ -1,0 +1,6 @@
+platform :ios, '10.0'
+
+target 'CoreImageStudy' do
+  pod 'Masonry'
+  pod 'YYCategories'
+end
