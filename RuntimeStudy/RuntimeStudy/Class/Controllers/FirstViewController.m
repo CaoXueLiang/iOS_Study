@@ -10,7 +10,7 @@
 #import "UIViewController+Swizzling.h"
 
 @interface FirstViewController ()
-
+@property (nonatomic,strong) UIButton *tipButton;
 @end
 
 @implementation FirstViewController
@@ -19,10 +19,20 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     self.navigationItem.title = @"第一个控制器";
+    
+    
+    _tipButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    _tipButton.frame = CGRectMake(100, 100, 100, 50);
+    _tipButton.backgroundColor = [UIColor purpleColor];
+    [_tipButton addTarget:self action:@selector(buttonClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_tipButton];
 }
 
-- (void)viewWillAppear:(BOOL)animated{
+
+- (void)buttonClicked{
     
 }
+
+
 
 @end

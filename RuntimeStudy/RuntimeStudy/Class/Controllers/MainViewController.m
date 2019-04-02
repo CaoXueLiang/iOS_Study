@@ -8,9 +8,8 @@
 
 #import "MainViewController.h"
 #import "CXLConstants.h"
-#import "UIImage+CXLExchange.h"
 #import "UIView+CXLView.h"
-#import "UIViewController+Swizzling.h"
+#import "FirstViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
@@ -24,10 +23,6 @@
     self.navigationItem.title = @"首页";
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [self.view addSubview:self.tableView];
-}
-
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
 }
 
 #pragma mark - UITableView M
@@ -70,14 +65,14 @@
  4.实现NSCoding的自动归档和自动解档
  5.实现字典和模型的自动转换(MJExtension)
  
- 
  */
 
 
 
 /*1.方法交换*/
 - (void)menthodChanged{
-    UIImage *imaage = [UIImage imageNamed:@"Action_Moments"];
+    FirstViewController *controller = [[FirstViewController alloc]init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 /**2.为category绑定属性*/
